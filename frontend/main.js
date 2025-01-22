@@ -4,7 +4,7 @@ async function getWeather() {
     const location = document.getElementById('locationInput').value;
     const resultDiv = document.getElementById('result');
     try {
-        const response = await axios.get('http://localhost:3000/api/v1/getweather', {
+        const response = await axios.get('http://192.168.31.52:3000/api/v1/getweather', {
             params: {
                 username: name,
                 place: location
