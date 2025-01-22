@@ -26,6 +26,11 @@ input {
     border-radius: 5px;
     margin-bottom: 10px;
     font-size: 1em;
+    transition: all 0.3s ease-in-out;
+}
+input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.5);
 }
 button {
     background: #97937ed0;

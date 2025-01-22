@@ -1,10 +1,6 @@
 
-
-const name = prompt('Enter your name');
-
-
 async function getWeather() {
-
+    const name = document.getElementById('nameInput').value;
     const location = document.getElementById('locationInput').value;
     const resultDiv = document.getElementById('result');
     try {
